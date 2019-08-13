@@ -1,6 +1,8 @@
 import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
+  @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
   * {
     margin: 0;
     padding: 0;
@@ -21,7 +23,7 @@ export default createGlobalStyle`
   }
 
   body, input, button {
-    font: 14px 'Robot', sans-serif;
+    font: 14px 'Montserrat', 'Roboto', sans-serif;
   }
 
   a {
