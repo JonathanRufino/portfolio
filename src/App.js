@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Header from '~/components/Header';
+import Hero from '~/components/Hero';
 
 import GlobalStyle from './styles/global';
 
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <GlobalStyle />
       <Header />
+      <Hero />
     </div>
   );
 }
