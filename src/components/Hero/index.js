@@ -1,7 +1,7 @@
 import React from 'react';
 import { MdEmail } from 'react-icons/md';
 
-import hero from '../../assets/hero.png';
+import hero from '~/assets/hero.png';
 
 import { Container, Content, Info } from './styles';
 
