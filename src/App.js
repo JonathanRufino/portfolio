@@ -3,6 +3,7 @@ import React from 'react';
 import Header from '~/components/Header';
 import Hero from '~/components/Hero';
 import About from '~/components/About';
+import Skills from '~/components/Skills';
 
 import GlobalStyle from './styles/global';
 
@@ -13,6 +14,7 @@ function App() {
       <Header />
       <Hero />
       <About />
+      <Skills />
     </div>
   );
 }
